@@ -1,0 +1,17 @@
+{
+  "name": "Python llama.cpp Codespaces",
+  "features": {},
+  "postCreateCommand": "bash .devcontainer/install.sh; exit",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "chat.disableAIFeatures": true,
+        "extensions.ignoreRecommendations": true
+      }
+    }
+  }
+}
